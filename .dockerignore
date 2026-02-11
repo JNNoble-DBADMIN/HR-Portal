@@ -1,0 +1,20 @@
+# --- Never send backups / exports to docker build context ---
+Backup/
+ops/
+*.tar
+*.zip
+*.bak
+
+# --- Git / tooling ---
+.git/
+.gitignore
+
+# --- Build outputs ---
+bin/
+obj/
+out/
+
+# --- Optional: local assets not needed at build ---
+*.log
+*.tmp
+Thumbs.db

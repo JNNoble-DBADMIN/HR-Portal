@@ -1,0 +1,10 @@
+services:
+  app1:
+    image: shuttle-app:latest
+    expose:
+      - "80"
+
+  app2:
+    image: workstation:latest
+    expose:
+      - "80"

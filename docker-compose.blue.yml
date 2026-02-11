@@ -1,0 +1,19 @@
+services:
+  gateway-blue:
+    image: hr_portal_gateway:blue
+    ports:
+      - "88:8080"
+    dns:
+      - 10.240.131.12
+      - 10.143.19.101
+    environment:
+      - Ldap__Host=10.240.131.12
+      - Ldap__Port=636
+      - Ldap__UseSsl=true
+      - Ldap__Domain=TV5
+      - Gateway__PortalHost=portal.tv5.com.ph
+      - Gateway__App1Host=shuttle.tv5.com.ph
+      - Gateway__App2Host=workstation.tv5.com.ph
+    depends_on:
+      - app1
+      - app2

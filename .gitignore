@@ -1,0 +1,21 @@
+Backup
+.git
+bin
+obj
+*.tar
+*.zip
+*.bak
+*.bak.*
+
+# Docker / build
+bin/
+obj/
+
+# Logs
+*.log
+
+# Secrets
+*.env
+
+# OS
+Thumbs.db
