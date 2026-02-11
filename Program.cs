@@ -419,7 +419,7 @@ public class Program
         <img src=""/assets/mq-cignal.png"" alt=""MediaQuest / Cignal"" />
       </div>
 
-      <h2>HR Applications Portal</h2>
+      <h2>HR Applications Portal - DBM SUPPORT</h2>
 
       <div class=""hint"">
         Sign in with your AD account (e.g. <b>TV5\\username</b> or <b>user@cignaltv.com.ph</b>)
